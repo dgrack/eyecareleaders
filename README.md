@@ -27,8 +27,8 @@ D. To test the autoscaling action, here's how you can run a small stress test on
 2. Run 'sudo apt install -y stress'
 3. Run 'stress --version'
 4. Run 'sudo stress --cpu 200 --timeout 10'
-   # where --cpu 200 means 200 hogs running together to stress the CPU. You may increase this number of hogs to put more stress on the cpu.
-   # On the AWS console, the autoscaling activity should start
+* '--cpu 200' means 200 hogs running together to stress the CPU. You may increase this number of hogs to put more stress on the cpu.
+* On the AWS console, the autoscaling activity should start
 6. Run 'ctrl+c' to exit
 
 E. Architectural Diagram is as follows:
