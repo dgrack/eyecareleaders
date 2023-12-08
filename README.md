@@ -31,9 +31,11 @@
 * On the AWS console, the autoscaling activity should start
 6. Run 'ctrl+c' to exit
 
-**E. Once you are satisfied, simply run 'terraform destroy' to delete the infrastructure. Keep in mind, most ports are kept public to make this demonstration simple.**
+**E. Once you are satisfied, simply run 'terraform destroy' to delete the infrastructure.**
 
-**F. Architectural Diagram is as follows**
+**F. For simplicity, I've not used any variables file. Most ports are kept public to make this demonstration straightforward.**
+
+**G. Architectural Diagram is as follows**
 
 ![diagram](https://github.com/dgrack/eyecareleaders/assets/75610814/b9890048-15cb-471e-91af-4d8cf53d09f1)
 
